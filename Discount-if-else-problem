@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main(){
+    int purchase;
+    printf("Enter your purchase prize know the discounts available:\n");
+    scanf("%d",&purchase);
+    if(purchase >= 500){
+        printf("discount is 20%%\n");
+     }
+      else if(purchase >= 200 && purchase < 500){
+        printf("discount is 10%%\n");
+     }
+      else{
+        printf("no discount");
+     }
+     return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
